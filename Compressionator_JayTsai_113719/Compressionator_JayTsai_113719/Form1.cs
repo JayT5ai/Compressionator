@@ -16,5 +16,13 @@ namespace Compressionator_JayTsai_113719
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            {
+                this.PathText.Text = folderBrowserDialog1.SelectedPath;
+            }
+        }
     }
 }
