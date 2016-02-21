@@ -7,3 +7,12 @@ C:\Users\TheFantastic\Desktop\Algorithm and Data Patterns\Class 7\Compressionato
 C:\Users\TheFantastic\Desktop\Algorithm and Data Patterns\Class 7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.csproj.GenerateResource.Cache
 C:\Users\TheFantastic\Desktop\Algorithm and Data Patterns\Class 7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.exe
 C:\Users\TheFantastic\Desktop\Algorithm and Data Patterns\Class 7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.pdb
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\bin\Debug\Compressionator_JayTsai_113719.exe.config
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.exe
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.pdb
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\bin\Debug\Compressionator_JayTsai_113719.exe
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\bin\Debug\Compressionator_JayTsai_113719.pdb
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.csprojResolveAssemblyReference.cache
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.Form1.resources
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.Properties.Resources.resources
+C:\Users\TheFantastic\Desktop\Game Tools & Pipeline\session7\Compressionator\Compressionator_JayTsai_113719\Compressionator_JayTsai_113719\obj\Debug\Compressionator_JayTsai_113719.csproj.GenerateResource.Cache
