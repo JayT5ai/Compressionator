@@ -78,7 +78,12 @@ namespace Compressionator_JayTsai_113719
             {
                 PathText4.Text = Path.GetFullPath(Path.Combine(PathText1.Text, @"..\")); ;
             }
-            ZipFile.ExtractToDirectory(PathText3.Text, PathText4.Text);
+            if (PathText2.Text != "")
+                ZipFile.ExtractToDirectory(PathText3.Text, PathText4.Text);
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("Please input what you want to extract.");
+            }
             
         }
 
