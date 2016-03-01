@@ -1,4 +1,4 @@
-﻿namespace Compressionator_JayTsai_113719
+﻿namespace ComperssionatorConsole_JayTsai_113719
 {
     partial class Form1
     {
