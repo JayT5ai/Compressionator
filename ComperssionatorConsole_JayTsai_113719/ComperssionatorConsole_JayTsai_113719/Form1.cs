@@ -250,7 +250,7 @@ namespace ComperssionatorConsole_JayTsai_113719
             {
                 PathText4.Text = Path.GetFullPath(Path.Combine(PathText1.Text, @"..\")); ;
             }
-            if (PathText2.Text != "")
+            if (PathText3.Text != "")
                 ZipFile.ExtractToDirectory(PathText3.Text, PathText4.Text);
             else
             {
@@ -272,11 +272,12 @@ namespace ComperssionatorConsole_JayTsai_113719
 
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            ZipArchiveMode mode = ZipArchiveMode.Create;
-
-            using (ZipArchive zipFile = ZipFile.Open(pathZip, mode))
+            using( ZipArchive archive = ZipFile.OpenRead( SourceBox.Text ) )
             {
-                
+                foreach (ZipArchiveEntry entry in archive.Entries)
+                {
+                    System.Windows.Forms.MessageBox.Show( Path.GetExtension(entry.Name) );
+                }
             }
 
         }

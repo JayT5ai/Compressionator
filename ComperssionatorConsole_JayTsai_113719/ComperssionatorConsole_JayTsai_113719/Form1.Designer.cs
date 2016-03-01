@@ -224,7 +224,7 @@
             // 
             // AddButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(452, 223);
+            this.AddButton.Location = new System.Drawing.Point(452, 204);
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(75, 23);
             this.AddButton.TabIndex = 22;
@@ -234,14 +234,14 @@
             // 
             // SourceBox
             // 
-            this.SourceBox.Location = new System.Drawing.Point(114, 193);
+            this.SourceBox.Location = new System.Drawing.Point(114, 174);
             this.SourceBox.Name = "SourceBox";
             this.SourceBox.Size = new System.Drawing.Size(332, 20);
             this.SourceBox.TabIndex = 24;
             // 
             // folderPath5
             // 
-            this.folderPath5.Location = new System.Drawing.Point(452, 191);
+            this.folderPath5.Location = new System.Drawing.Point(452, 172);
             this.folderPath5.Name = "folderPath5";
             this.folderPath5.Size = new System.Drawing.Size(75, 23);
             this.folderPath5.TabIndex = 23;
@@ -251,7 +251,7 @@
             // 
             // RenameBox
             // 
-            this.RenameBox.Location = new System.Drawing.Point(114, 223);
+            this.RenameBox.Location = new System.Drawing.Point(114, 204);
             this.RenameBox.Name = "RenameBox";
             this.RenameBox.Size = new System.Drawing.Size(332, 20);
             this.RenameBox.TabIndex = 25;
@@ -267,7 +267,7 @@
             // 
             // DeleteButton
             // 
-            this.DeleteButton.Location = new System.Drawing.Point(259, 160);
+            this.DeleteButton.Location = new System.Drawing.Point(236, 230);
             this.DeleteButton.Name = "DeleteButton";
             this.DeleteButton.Size = new System.Drawing.Size(124, 23);
             this.DeleteButton.TabIndex = 27;
