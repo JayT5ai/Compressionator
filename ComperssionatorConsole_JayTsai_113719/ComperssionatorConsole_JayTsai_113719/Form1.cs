@@ -269,16 +269,36 @@ namespace ComperssionatorConsole_JayTsai_113719
                 SourceBox.Text = fDialog.FileName;
             }
         }
-
+        
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            using( ZipArchive archive = ZipFile.OpenRead( SourceBox.Text ) )
+            string ext;
+            if (SourceBox.Text != "" && FilterBox.Text != "")
             {
-                foreach (ZipArchiveEntry entry in archive.Entries)
+
+                using (ZipArchive archive = ZipFile.Open(SourceBox.Text, ZipArchiveMode.Update))
                 {
-                    System.Windows.Forms.MessageBox.Show( Path.GetExtension(entry.Name) );
+                    int i = 0;
+                    while (i < archive.Entries.Count)
+                    {
+                        ext = Path.GetExtension(archive.Entries[i].Name);
+                        if (ext == FilterBox.Text)
+                        {
+                            archive.Entries[i].Delete();
+                        }
+                        else
+                        {
+                            i++;
+                        }
+                    }
+                    
                 }
             }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("Please input a Filter and Source.");
+            }
+            
 
         }
 
